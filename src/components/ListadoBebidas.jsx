@@ -11,7 +11,7 @@ const ListadoBebidas = () => {
       {bebidas.map(bebida => (
         <Bebida 
           key={bebida.idDrink}
-          Bebida={bebida}
+          bebida={bebida}
         />
       ))}
     </Row>

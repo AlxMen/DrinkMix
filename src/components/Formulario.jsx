@@ -11,7 +11,7 @@ const Formulario = () => {
   })
   const [alerta, setAlerta] = useState('')
   const { categorias } = useCategorias()
-  const {consultarBebidas} = useBebidas()
+  const { consultarBebidas } = useBebidas()
 
   const handleSubmit = e => {
     e.preventDefault()
