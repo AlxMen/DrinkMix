@@ -15,11 +15,13 @@ const Formulario = () => {
 
   const handleSubmit = e => {
     e.preventDefault()
+    
     if (Object.values(busqueda).includes('')) {
       setAlerta('Todos los campos son obligatorios')
       return
     }
     setAlerta('')
+
     consultarBebidas(busqueda)
 
   }

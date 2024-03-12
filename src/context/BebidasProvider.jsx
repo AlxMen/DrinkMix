@@ -16,7 +16,6 @@ const BebidasProvaider = ({children}) => {
 
       setBebidas(data.drinks)
       console.log(bebidas);
-      
     } catch (error) {
       console.log(error);
     }
@@ -27,6 +26,7 @@ const BebidasProvaider = ({children}) => {
     <BebidasContext.Provider
       value={{
         consultarBebidas,
+        bebidas
       }}
     >
       {children}

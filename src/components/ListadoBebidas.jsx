@@ -8,12 +8,12 @@ const ListadoBebidas = () => {
   
   return (
     <Row className="mt-5">
-      {/* {bebidas.map(bebida => (
+      {bebidas.map(bebida => (
         <Bebida 
           key={bebida.idDrink}
           Bebida={bebida}
         />
-      ))} */}
+      ))}
     </Row>
   )
 }
